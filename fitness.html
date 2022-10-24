@@ -14,11 +14,6 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Moonrocks&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/mediaquery.css">
-    <link rel="stylesheet" href="css/mediaquery2.css">
-    <link rel="stylesheet" href="css/mediaquery3.css">
-    <link rel="stylesheet" href="css/mediaquery4.css">
-    <link rel="stylesheet" href="css/mediaquery5.css">
 </head>
 
 <body>
@@ -30,7 +25,7 @@
                 <!-- Navbar -->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#">
-                        <img src="/images/logofitness copy8.png" width="200" height="200" alt="logo" target="_blank">
+                        <img src="/images/logofitness.png" alt="logo" target="_blank">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -88,11 +83,15 @@
                                 </div>
                             </li>
 
-                            <img src="/images/user3.png" class="img-fluid laptop" alt="Responsive image">
+
+
+                        </ul>
+                        <div class="login">
+                            <img src="/images/user (3).png" class="img-fluid" alt="Responsive image">
                             <a href="#">
                                 <p>Log In</p>
                             </a>
-                        </ul>
+                        </div>
 
 
                     </div>
@@ -101,7 +100,7 @@
             </header>
             <!-- main navigation -->
 
-            <div class="container">
+            <div class="container motivation_zone">
                 <h1 class="motivation">A little progress <br> each day adds up to <br> <span class="gold">BIG <span
                             class="white">RESULTS</span></span></h1>
             </div>
@@ -115,7 +114,7 @@
     <main>
         <div class="container-fluid about">
             <div class="row top">
-                <div class="col-5 top_text">
+                <div class="top_text">
                     <h1>ABOUT <span class="gold">US</span></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Id non velit repellendus eius neque
                         labore <br> laborum dolorem quo, saepe, minima deleniti nihil corrupti temporibus fugiat sint
@@ -128,13 +127,15 @@
                     <button class="btn" value="signup">Find Out More</button>
                 </div> -->
 
-                <div class="col-7 top_img" id="top_pix">
-                    <img src="/images/p1.1.png" id="pic" class="img-fluid laptop" alt="Responsive image">
+                <div class="top_img" id="top_pix">
+                    <!-- <img src="/images/p1.1.png" id="pic" class="img-fluid laptop" alt="Responsive image">
                     <img src="/images/p1.3.png" id="right_pic" class="img-fluid laptop" alt="Responsive image">
-                    <img src="/images/p12.png" id="left_pic" class="img-fluid laptop" alt="Responsive image">
+                    <img src="/images/p12.png" id="left_pic" class="img-fluid laptop" alt="Responsive image"> -->
+
                     <!-- screen 600px to 900px only -->
-                    <img src="/images/pexels-leon-ardho-1552249.jpg" id="middle_pic" class="img-fluid laptop" alt="Responsive image">
-                    
+                    <img src="/images/pexels-leon-ardho-1552249.jpg" id="middle_pic" class="img-fluid laptop"
+                        alt="Responsive image">
+
                 </div>
             </div>
         </div>
@@ -148,35 +149,38 @@
                     <img src="/images/remove copy copy.png" id="pic" class="img-fluid laptop" alt="Responsive image">
                 </div>
                 <div class="col-6 card-button">
-                    <button class="card-btn" value="veiw more">View all</button>
+                    <button class="card-btn" value="view more">View all</button>
                 </div>
             </div>
             <div class="row card_zone">
 
-                <div class="card one" style="width: 18rem;">
-                    <img class="card-img-top" src="/images/pexels-yan-krukov-8436769.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Mind & Body</p>
+                <div class="card one">
+                    <img class="card-img-top card_img" src="/images/pexels-yan-krukov-8436769.jpg" alt="Card image cap">
+
+                    <div class="overlay">
+                        <button class="card-text">Mind & Body</button>
                     </div>
                 </div>
 
 
 
-                <div class="card two" style="width: 18rem;">
-                    <img class="card-img-top" src="/images/Norwood+Council+-+Fit+Kids+-+October+06+2021-16.jpg"
+                <div class="card two">
+                    <img class="card-img-top card_img" src="/images/Norwood+Council+-+Fit+Kids+-+October+06+2021-16.jpg"
                         alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Kid's Fitness</p>
+
+                    <div class="overlay">
+                        <button class="card-text">Kid's Fitness</button>
                     </div>
                 </div>
 
 
 
-                <div class="card three" style="width: 18rem;">
-                    <img class="card-img-top" src="images/miguel-angel-hernandez-Nwc-Z3_aEvw-unsplash.jpg"
+                <div class="card three">
+                    <img class="card-img-top card_img" src="images/miguel-angel-hernandez-Nwc-Z3_aEvw-unsplash.jpg"
                         alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Dance Session</p>
+
+                    <div class="overlay">
+                        <button class="card-text">Dance Session</button>
                     </div>
                 </div>
             </div>
@@ -184,8 +188,8 @@
 
         <div class="container-fluid video_zone">
             <div class="row v_zone">
-                <div class="col-12">
-                    <video width="100%" autoplay muted loop>
+                <div class="col-12 v_zone-video">
+                    <video autoplay muted loop>
                         <source src="/images/pexels-ron-lach-7674509.mp4">
                     </video>
                 </div>
@@ -200,33 +204,6 @@
 
     <!-- Main -->
 
-    <!-- Banner -->
-    <section class="banner">
-        <div class="container-fluid banner_brands">
-            <div class="row brands">
-                <div class="col-2">
-                    <img src="/images/banner/compass-logo-vector1.png" alt="compass" class="compass">
-                </div>
-
-                <div class="col-2">
-                    <img src="/images/banner/dropbox-logo1 copy.png" alt="dropbox" class="dropbox">
-                </div>
-
-                <div class="col-2">
-                    <img src="/images/banner/ebay1.png" alt="ebay" class="ebay">
-                </div>
-
-                <div class="col-2">
-                    <img src="/images/banner/laz2 copy.png" alt="lazboy" class="lazboy">
-                </div>
-
-                <div class="col-2">
-                    <img src="/images/banner/twilio.png" alt="twilio" class="twilio">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Banner -->
 
     <!-- Footer -->
     <footer>
@@ -244,31 +221,31 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 footer_logo">
+            <div class="row footer">
+                <div class="footer_logo">
                     <div class="row">
-                        <img src="/images/logofitness copy8.png" width="400" height="400" alt="logo" target="_blank">
+                        <img src="/images/logofitness.png" width="400" height="400" alt="logo" target="_blank">
                     </div>
                     <div class="row">
                         <p>&copy 2022 Broadway <br> All Rights Reserved</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 footer_contact">
+                <div class="footer_contact">
                     <div class="row">
                         <p class="contact">Contact Us</p>
                     </div>
                     <div class="row soc_media">
-                        <div class="col-3">
-                            <img src="/images/inst (1).png" class="img-fluid laptop inst" alt="Responsive image">
+                        <div>
+                            <img src="/images/inst (1).png" class="img-fluid media inst" alt="Responsive image">
                         </div>
-                        <div class="col-3">
-                            <img src="/images/inst (2).png" class="img-fluid laptop fbk" alt="Responsive image">
+                        <div>
+                            <img src="/images/inst (2).png" class="img-fluid media fbk" alt="Responsive image">
                         </div>
-                        <div class="col-3">
-                            <img src="/images/inst (3).png" class="img-fluid laptop ytube" alt="Responsive image">
+                        <div>
+                            <img src="/images/inst (3).png" class="img-fluid media ytube" alt="Responsive image">
                         </div>
-                        <div class="col-3">
-                            <img src="/images/inst (4).png" class="img-fluid laptop tik" alt="Responsive image">
+                        <div>
+                            <img src="/images/inst (4).png" class="img-fluid media tik" alt="Responsive image">
                         </div>
                     </div>
                     <div class="legal">
@@ -285,7 +262,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 fmenu">
+                <div class="fmenu">
                     <div class="row fmenu_title">
                         <p>Menu</p>
                     </div>
